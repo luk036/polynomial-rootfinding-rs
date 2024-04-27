@@ -1,15 +1,15 @@
 [package]
-name = "ginger-rs"
-version = "0.1.0"
+name = "polynomial-rootfinding-rs"
+version = "0.1.1"
 edition = "2021"
 description = "Parallel Bairstow Root-finding Method in Rust"
-repository = "https://github.com/luk036/ginger-rs"
+repository = "https://github.com/luk036/polynomial-rootfinding-rs"
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "ginger"
+name = "polynomial_rootfinding"
 path = "src/lib.rs"
 
 [dependencies]
